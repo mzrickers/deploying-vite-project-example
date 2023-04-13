@@ -1,7 +1,7 @@
 <template>
   <div class="content">
-    <router-link to="/"> Home </router-link>
-    <router-link to="/about"> Guide </router-link>
+    <router-link to="/deploying-vite-project-example/"> Home </router-link>
+    <router-link to="/deploying-vite-project-example/about"> Guide </router-link>
     <router-view v-slot="{ Component }">
       <transition 
         enter-active-class="animate__animated animate__fadeInLeft"

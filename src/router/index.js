@@ -6,11 +6,11 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/',
+            path: '/deploying-vite-project-example/',
             component: Home,
         },
         {
-            path: '/about',
+            path: '/deploying-vite-project-example/about',
             component: About
         }
     ]
